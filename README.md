@@ -36,13 +36,13 @@ The machine learning model used for prediction is a KNN .
 The SVM model is trained using a cleaned water quality dataset. The dataset is split into training and testing sets, and the features are standardized.
 
 ## File Structure
-- `water_quality_app.py`: Streamlit web app for interactive prediction.
+- `app.py`: Streamlit web app for interactive prediction.
 - `cleaned_data.csv`: Cleaned water quality dataset.
 - `model_training.ipynb`: Jupyter Notebook for model training.
 - `requirements.txt`: List of project dependencies.
 
 ## Results
-The model achieved an accuracy of [accuracy_percentage]% on the test set.
+The model achieved an accuracy of 64% on the test set.
 
 ## Future Improvements
 - Explore additional machine learning algorithms for comparison.
